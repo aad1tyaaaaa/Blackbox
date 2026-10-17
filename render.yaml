@@ -3,7 +3,6 @@ services:
     name: blackbox-api
     runtime: docker
     plan: free
-    healthCheckPath: /api/health
     envVars:
       # Secrets: Render prompts for these on first deploy (copy from your .env)
       - key: DATABASE_URL
