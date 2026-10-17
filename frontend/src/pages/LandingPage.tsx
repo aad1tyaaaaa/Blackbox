@@ -276,9 +276,6 @@ export default function LandingPage() {
             color="#FF4F00"
             haloColor="#FF8C42"
             horizonColor="#FF4F00"
-            particleCount={60}
-            beamCount={5}
-            riseSpeed={0.35}
           />
         </Suspense>
         <div className="relative mx-auto max-w-[1440px]">
